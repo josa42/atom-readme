@@ -1,0 +1,19 @@
+{
+  "name": "readme",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Quickly open readme files for installed packages.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "readme:show-list"
+  },
+  "repository": "https://github.com/josa42/atom-readme.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "glob": "^5.0.13"
+  }
+}
